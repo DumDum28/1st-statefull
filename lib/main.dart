@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
-import 'package:simple_app/Screen/menus.dart';
-import 'package:simple_app/screen/home.dart';
+import 'package:simple_app/Screens/myapp.dart';
 
 void main() {
   runApp(MaterialApp(
-      title: "Simple App",
-      home: Scaffold(
-        appBar: AppBar(
-          title: Text("Simple App"),
-        ),
-        body: Menus(),
-      )));
+    title: "Exchange Rate",
+    home: Scaffold(
+      appBar: AppBar(
+        title: Text("Exchange Rate"),
+      ),
+      body: Myapp(),
+    ),
+  ));
 }
